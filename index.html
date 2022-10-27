@@ -5,11 +5,15 @@
 <link rel="icon" sizes="35x128" href="C:\Users\sylnyma\Pictures\pictures\meme resources\wowquestt.png"/>
 <title>New Tab</title>
 <style>
-.b  {
-	background-image: url('https://usamin.info/img/cards/100317.png');
+body  {
+	background-image: url("https://usamin.info/img/cards/100317.png");
     background-size: cover;
     background-repeat: no-repeat;
+	background-position:0% 10%;
 	display:block;
+	position:fixed;
+	width:100%;
+	height:100%;
 }
 .titlee{
     font-family: "A Year Without Rain";
@@ -56,38 +60,32 @@ function checkTime(i) {
 </head>
 
 <body onload="startTime();numb();">
-<div id="b" style="position:fixed;background-position:center;left:0%;top:0%;width:100%; height:100%;background-size: cover;background-repeat: no-repeat;
-min-width:100%;min-height;">
-</div>
-<div class="text">
-</div>
-	<div style="background-color:rgba(95, 183, 111, 0.5);position:absolute;left:2.24%;top:5.1%;width:21.197%;height:37.5%;border:2px solid #1a5b26;border-radius:10px;box-shadow:10px 10px 25px black;">
-	</div>
-    <span class="titlee">
-	<b>Fast Travel</b>
-    </span>
-    <a href="http://www.twitter.com/sylnyma">
-    <span class="link" style="color: #baf8ff;position:absolute;left:5.729%;top:17.7%;">
-	<img src="http://i.imgur.com/82NI2Ro.png" style="width:10.5%;height:5.1%;position:relative;"/>
-	Twitter
-    </span>
-    </a>
+	<div class="text"></div>
+	<div style="background-color:rgba(95, 183, 111, 0.5);position:absolute;left:2.24%;top:5.1%;width:21.197%;height:37.5%;border:2px solid #1a5b26;border-radius:10px;box-shadow:10px 10px 25px black;"></div>
+	<span class="titlee">
+		<b>Fast Travel</b>
+	</span>
+	<a href="http://www.twitter.com/sylnyma">
+		<span class="link" style="color: #baf8ff;position:absolute;left:5.729%;top:17.7%;">
+			<img src="http://i.imgur.com/82NI2Ro.png" style="width:10.5%;height:5.1%;position:relative;"/>
+				Twitter
+		</span>
+	</a>
 
-    <a href="http://www.twitch.tv/following">
-    <span class="link" style="color:#eebfff; position:absolute;left:5.729%;top:26.04%;">
-	<img src="http://i.imgur.com/eXZfWQg.png" style="width:12.5%;height:5.1%;position:relative;"/>
-	Twitch
-    </span>
-    </a>
+	<a href="http://www.twitch.tv/following">
+		<span class="link" style="color:#eebfff; position:absolute;left:5.729%;top:26.04%;">
+			<img src="http://i.imgur.com/eXZfWQg.png" style="width:12.5%;height:5.1%;position:relative;"/>
+				Twitch
+		</span>
+	</a>
 
-    <a href="http://www.youtube.com/feed/subscriptions">
-    <span class="link" style="color:#f97c95; position:absolute;left:5.729%;top:34.375%;">
-	<img src="http://i.imgur.com/HbiPTtA.png" style="width:12.5%;height:5.1%;position:relative;"/>
-	YouTube
-    </span>
-    </a>
-<img src="http://i.imgur.com/gylmnoP.png" id="btn" onclick="numb()" style="position:absolute;bottom:8.2%;right:4.1667%;border-radius:180px;width:7.8125%;height:15.625%;cursor:pointer;box-shadow:5px 5px 200px #ffffff, -5px -5px 200px #ffffff,5px -5px 200px #ffffff,-5px 5px 200px #ffffff;">
-</img>
+	<a href="http://www.youtube.com/feed/subscriptions">
+		<span class="link" style="color:#f97c95; position:absolute;left:5.729%;top:34.375%;">
+			<img src="http://i.imgur.com/HbiPTtA.png" style="width:12.5%;height:5.1%;position:relative;"/>
+				YouTube
+		</span>
+	</a>
+	<img src="http://i.imgur.com/gylmnoP.png" id="btn" onclick="numb()" style="position:absolute;bottom:8.2%;right:4.1667%;border-radius:180px;width:7.8125%;height:15.625%;cursor:pointer;box-shadow:5px 5px 200px #ffffff, -5px -5px 200px #ffffff,5px -5px 200px #ffffff,-5px 5px 200px #ffffff;"/>
 <script type="text/javascript">
 function numb(){
 
@@ -343,14 +341,10 @@ var pics=[
 
 var i = Math.floor(Math.random() * pics.length);
 
-document.getElementById('b').style.backgroundImage = "url('"+pics[i]+"')";
+document.body.style.backgroundImage = "url('"+pics[i]+"')";
 }
 </script>
 <div id="txt" style="position:absolute;right:2.24%;top:5.1%;font-family: A Year Without Rain;font-size: 5.73vw;background-color:rgba(255, 132, 132,0.5);width:20.05%;height:14.58%;padding-left:2.083%;border-radius:15px;color:#baf8ff;
 -webkit-text-stroke-width: 2px;-webkit-text-stroke-color: #165e84;text-shadow: 4px 4px 4px black;box-shadow:10px 10px 25px black;border:2px solid #720e21;"></div>
-<!--<div style="overflow:hidden;border:2px solid #4c4c4c;position:absolute;top:55.2%;left:1.3%;width:29.69%;height:37.5%;box-shadow:10px 10px 25px black;border-radius:15px;"><iframe id="wiki" src="https://en.wikipedia.org/wiki/Special:Random"  style="margin-left:-28.4%;margin-top:-0.83%;width:128%;height:101%;"></iframe>
-</div>
-<div style="border:2px solid #165e84;position:absolute;top:36.46%;right:3.87%;width:26.04%;height:31.25%;box-shadow:10px 10px 25px black;border-radius:15px;overflow:hidden;"><iframe id="def" src="https://en.wiktionary.org/wiki/Special:RandomInCategory/English_lemmas" style="margin-left:-32.4%;margin-top:-1%;width:136%;height:101%;"></iframe>
-</div>-->
 </body>
 </html>
